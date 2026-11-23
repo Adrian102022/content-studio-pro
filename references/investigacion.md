@@ -1,0 +1,5 @@
+# Investigación y oportunidades
+
+Define tema, región, idioma, periodo, plataforma y audiencia. Busca fuentes primarias, preguntas reales, consultas, formatos y competidores comparables. Registra URL, fecha, contexto y afirmación sustentada por hallazgo. Distingue evidencia, inferencia e hipótesis. Autocompletado e índices relativos orientan ideas. Volumen y tendencia requieren evidencia directa y periodo definido.
+
+Para un banco de formatos que ya funcionaron compara cada pieza con la mediana reciente de su propia cuenta, con formato, fecha y antigüedad similares. Registra ambas cifras, procedencia, muestra y cobertura. Usa [swipe o viral](herramientas.md); una fórmula se infiere del título, no prueba causalidad. Extrae estructuras propias a partir de las referencias sin copiar texto. Ante huecos, informa qué dato falta y entrega ideas etiquetadas como hipótesis. Cierra con preguntas de audiencia y 3–5 oportunidades ordenadas por ajuste, evidencia y esfuerzo. Guarda el banco local cuando el usuario lo solicite.

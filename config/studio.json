@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "defaults": {
+    "language": "es",
+    "tone": "directo y conversacional",
+    "profile": "marca.json"
+  },
+  "counts": {
+    "titles": 10,
+    "finalists": 3,
+    "thumbnails": 3,
+    "shorts": 3
+  },
+  "title_weights": {
+    "claridad": 1,
+    "curiosidad": 1,
+    "seo": 1,
+    "fidelidad": 2
+  },
+  "formats": {
+    "youtube": {
+      "width": 1280,
+      "height": 720,
+      "max_bytes": 2000000
+    },
+    "vertical": {
+      "width": 1080,
+      "height": 1920
+    },
+    "carrusel": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "modules": {
+    "investigacion": "investigacion",
+    "estrategia": "estrategia",
+    "guiones": "guiones",
+    "titulos": "titulos",
+    "diseno": "diseno",
+    "seo": "seo",
+    "humanizer": "humanizer",
+    "retencion": "retencion",
+    "reutilizacion": "reutilizacion",
+    "produccion": "produccion",
+    "analitica": "analitica",
+    "marca": "marca",
+    "exportacion": "exportacion",
+    "calidad": "exportacion",
+    "comunidad": "comunidad",
+    "social": "social"
+  },
+  "modes": {
+    "completo": [
+      "investigacion",
+      "guiones",
+      "retencion",
+      "humanizer",
+      "titulos",
+      "diseno",
+      "seo",
+      "reutilizacion",
+      "produccion",
+      "calidad",
+      "exportacion"
+    ],
+    "youtube": [
+      "guiones",
+      "retencion",
+      "titulos",
+      "seo",
+      "produccion",
+      "calidad"
+    ],
+    "shorts": [
+      "guiones",
+      "retencion",
+      "produccion",
+      "calidad"
+    ],
+    "redes": [
+      "social",
+      "calidad"
+    ],
+    "seo": [
+      "titulos",
+      "seo",
+      "calidad"
+    ],
+    "diseno": [
+      "diseno",
+      "calidad"
+    ],
+    "humanizer": [
+      "humanizer"
+    ],
+    "auditoria": [
+      "analitica",
+      "calidad"
+    ],
+    "estrategia": [
+      "estrategia",
+      "calidad"
+    ],
+    "optimizacion": [
+      "calidad"
+    ]
+  },
+  "sections": [
+    "investigacion",
+    "estrategia",
+    "guiones",
+    "titulos",
+    "diseno",
+    "seo",
+    "shorts",
+    "redes",
+    "produccion",
+    "analitica",
+    "comunidad",
+    "control"
+  ],
+  "extensions": [
+    ".md",
+    ".txt",
+    ".csv",
+    ".tsv",
+    ".json",
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".srt",
+    ".vtt"
+  ],
+  "complete_files": [
+    "LEEME.md",
+    "marca.json",
+    "investigacion/enfoque.md",
+    "guiones/youtube.md",
+    "titulos/titulos.json",
+    "titulos/finalistas.md",
+    "diseno/direccion.md",
+    "seo/publicacion.md",
+    "redes/instagram.md",
+    "redes/tiktok.md",
+    "produccion/storyboard.md",
+    "control/checklist.md",
+    "control/estado.json"
+  ]
+}

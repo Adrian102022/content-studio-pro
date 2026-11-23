@@ -1,0 +1,92 @@
+[
+  {
+    "id": "T01",
+    "titulo": "Cómo sincronizar audio y video grabados por separado",
+    "claridad": 5,
+    "curiosidad": 3,
+    "seo": 5,
+    "fidelidad": 5,
+    "motivo": "Nombra el problema en el lenguaje de búsqueda y cubre todo el flujo."
+  },
+  {
+    "id": "T02",
+    "titulo": "¿Grabaste el audio aparte? Así lo alineas con el video",
+    "claridad": 5,
+    "curiosidad": 4,
+    "seo": 4,
+    "fidelidad": 5,
+    "motivo": "Se reconoce el caso de uso y promete una solución que aparece en pantalla."
+  },
+  {
+    "id": "T03",
+    "titulo": "El truco de la palmada para sincronizar audio y video",
+    "claridad": 5,
+    "curiosidad": 4,
+    "seo": 5,
+    "fidelidad": 5,
+    "motivo": "Hace visible el método sin prometer una solución a todos los desfases."
+  },
+  {
+    "id": "T04",
+    "titulo": "Dos pistas fuera de tiempo: cómo alinearlas en edición",
+    "claridad": 4,
+    "curiosidad": 4,
+    "seo": 3,
+    "fidelidad": 5,
+    "motivo": "Describe el síntoma y la operación, aunque no menciona el audio externo."
+  },
+  {
+    "id": "T05",
+    "titulo": "La voz no coincide con la boca: corrige el desfase de audio",
+    "claridad": 4,
+    "curiosidad": 5,
+    "seo": 4,
+    "fidelidad": 4,
+    "motivo": "Problema reconocible. El método se limita a un desfase que pueda alinearse."
+  },
+  {
+    "id": "T06",
+    "titulo": "Grabadora y cámara: cómo casar las dos pistas de audio",
+    "claridad": 4,
+    "curiosidad": 3,
+    "seo": 4,
+    "fidelidad": 5,
+    "motivo": "Atrae a quien ya usa estos dispositivos. La formulación es menos universal."
+  },
+  {
+    "id": "T07",
+    "titulo": "Cómo usar la forma de onda para sincronizar una toma",
+    "claridad": 4,
+    "curiosidad": 4,
+    "seo": 4,
+    "fidelidad": 5,
+    "motivo": "Cubre el paso técnico central con una formulación de alcance acotado."
+  },
+  {
+    "id": "T08",
+    "titulo": "Qué grabar al principio de una toma para alinear el audio",
+    "claridad": 4,
+    "curiosidad": 4,
+    "seo": 3,
+    "fidelidad": 5,
+    "motivo": "Enfoca la preparación de la próxima toma y deja la edición en segundo plano."
+  },
+  {
+    "id": "T09",
+    "titulo": "Cómo sincronizar audio externo en la línea de tiempo",
+    "claridad": 5,
+    "curiosidad": 3,
+    "seo": 4,
+    "fidelidad": 5,
+    "motivo": "Intención de edición clara para quien ya tiene las dos pistas."
+  },
+  {
+    "id": "T10",
+    "titulo": "Una toma, dos dispositivos: recupera la sincronía en edición",
+    "claridad": 4,
+    "curiosidad": 4,
+    "seo": 3,
+    "fidelidad": 5,
+    "motivo": "Buen ángulo para recomendación, con menor coincidencia de búsqueda."
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "completo": true,
+  "archivos": [
+    {
+      "ruta": "LEEME.md",
+      "bytes": 926,
+      "sha256": "c77a3e519aca18e0d910e03366e88b6d3cb3e09431e76f046e0cdcbf34e6f25b"
+    },
+    {
+      "ruta": "control/checklist.md",
+      "bytes": 614,
+      "sha256": "459a3445bd5eaa23eab7267b84cf137634cff80c77b6464bdb0b61a974b59e9a"
+    },
+    {
+      "ruta": "control/edicion-voz.md",
+      "bytes": 1013,
+      "sha256": "1ad690180dd6fbf0bb64efefd00bb69d1169319a621be7d7b867fe36b4523b49"
+    },
+    {
+      "ruta": "control/estado.json",
+      "bytes": 419,
+      "sha256": "4829ffca28503626935a19ed11e400d4213392833c893ccf3d10fdaf0fa621c9"
+    },
+    {
+      "ruta": "control/ganchos.md",
+      "bytes": 755,
+      "sha256": "630b83bacfee9e01fc52ea51fe59f4c043040278a3b454b85c99c0008128f503"
+    },
+    {
+      "ruta": "diseno/direccion.md",
+      "bytes": 2083,
+      "sha256": "9984ea7df2c7fbebd148f43077226737070ad9b4225548d92d99d9ff73ee9714"
+    },
+    {
+      "ruta": "diseno/youtube-01.png",
+      "bytes": 1067107,
+      "sha256": "9befaf330925f8180b7b65c9d4d43f526327a259c07887285d66638e6d48832e"
+    },
+    {
+      "ruta": "diseno/youtube-02.png",
+      "bytes": 1019989,
+      "sha256": "3b45bbe9b6d0855535472281040482718248340cbe33ef67a53c60e82905d762"
+    },
+    {
+      "ruta": "diseno/youtube-03.png",
+      "bytes": 1023786,
+      "sha256": "40bf80a7851f857b053f926338b45eb66e1ec71b6f8713f95a4485b4cfb28138"
+    },
+    {
+      "ruta": "estrategia/calendario.csv",
+      "bytes": 368,
+      "sha256": "1ec19a8b3981280ce0632f393d584ca40894deb2c51caddfdd937f8f5400bbfb"
+    },
+    {
+      "ruta": "guiones/youtube.md",
+      "bytes": 2684,
+      "sha256": "af926846b76ac6e17cbef0e7fb10a0881c0922f8b1e579ee102d7bb3aa1c11ed"
+    },
+    {
+      "ruta": "investigacion/enfoque.md",
+      "bytes": 1657,
+      "sha256": "631d247dec0e36abb000f8ecd8e7cf3aa8eb43967d6bfa8d54089fe4a34f9b8f"
+    },
+    {
+      "ruta": "marca.json",
+      "bytes": 985,
+      "sha256": "b5dbe565d40644fa6310d3d536f0f7498085c8f8f800c3c08f6287519c20fb53"
+    },
+    {
+      "ruta": "produccion/storyboard.md",
+      "bytes": 1239,
+      "sha256": "f874e150989c841ee08fdffb386bc458c3ad6a8273c180197faab5af8d0c1e84"
+    },
+    {
+      "ruta": "redes/instagram.md",
+      "bytes": 1543,
+      "sha256": "74958878462607a86e321533b6d75ecf858614da12b7c660356751101cca9246"
+    },
+    {
+      "ruta": "redes/tiktok.md",
+      "bytes": 1492,
+      "sha256": "486d84c41abf6a637a4fb7543950727312445921b6c4038187ef1a3c83904e7e"
+    },
+    {
+      "ruta": "seo/publicacion.md",
+      "bytes": 1461,
+      "sha256": "0fb567643f11cfcd67cfe0edbae46f3b400b1a50842f4e0138c4c216b8b0d292"
+    },
+    {
+      "ruta": "shorts/01.md",
+      "bytes": 643,
+      "sha256": "9032df2456dcd4739b10cd55cbc491fcad950b577812b522f6719eca0d04d5cf"
+    },
+    {
+      "ruta": "shorts/02.md",
+      "bytes": 580,
+      "sha256": "5b8b4a89b3ee4c95ca9316cf9b0f1e6e1de5463384b8545f268b10b3041064e3"
+    },
+    {
+      "ruta": "shorts/03.md",
+      "bytes": 570,
+      "sha256": "124850d3bedb454b523fa00dae6a7ab8044b657a81a253a9a6d95945beb33fe9"
+    },
+    {
+      "ruta": "titulos/finalistas.md",
+      "bytes": 814,
+      "sha256": "2dd7b1af35b3104fecdffa530a0a8390aa66b80d7cab5bd5fc8dadd7b28de05a"
+    },
+    {
+      "ruta": "titulos/titulos.json",
+      "bytes": 2639,
+      "sha256": "e0d027807dd984fd15a8852ec381deac34a4bcf6b396c50a93d192e6c3111575"
+    }
+  ]
+}

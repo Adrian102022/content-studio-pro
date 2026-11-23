@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "nombre": "Taller de Montaje",
+  "idioma": "es",
+  "publico": "Personas que empiezan a grabar y editar contenido",
+  "nicho": "Producción y edición audiovisual",
+  "tono": ["conversacional", "directo", "práctico"],
+  "tratamiento": "tú",
+  "personalidad": ["explica con una prueba a la vista"],
+  "objetivos": ["enseñar una técnica reproducible"],
+  "colores": {"primario": "#123D3C", "texto": "#FFF4D9", "acento": "#FFB74D"},
+  "estilo_visual": "Demostraciones y capturas legibles con acentos ámbar",
+  "terminologia": ["pista guía", "forma de onda", "palmada"],
+  "vocabulario_evitar": ["revolucionario", "infalible"],
+  "preferencias_editoriales": ["mostrar el resultado antes de explicar los pasos"],
+  "afirmaciones_restringidas": ["garantizar el arreglo de desfases progresivos"],
+  "cta": {"youtube": "Haz una toma de prueba y comprueba los labios", "instagram": "Guarda el procedimiento", "tiktok": "Cuéntame qué equipo usas"},
+  "muestras": []
+}

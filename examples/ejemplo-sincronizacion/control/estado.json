@@ -1,0 +1,14 @@
+{
+  "miniaturas": {
+    "estado": "lista",
+    "detalle": "Tres PNG reales del generador nativo de imágenes de OpenAI, ajustados y revisados a 1280 × 720."
+  },
+  "capitulos": {
+    "estado": "pendiente",
+    "detalle": "El piloto parte de un guion. La grabación y los tiempos de montaje están pendientes."
+  },
+  "rodaje": {
+    "estado": "pendiente",
+    "detalle": "Guion y storyboard listos para grabar."
+  }
+}

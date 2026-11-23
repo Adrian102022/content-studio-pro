@@ -1,0 +1,4 @@
+interface:
+  display_name: "CONTENT STUDIO PRO"
+  short_description: "Producción editorial, SEO, diseño y analítica"
+  default_prompt: "Usa $content-studio-pro en modo completo para preparar un video de YouTube y sus adaptaciones."
