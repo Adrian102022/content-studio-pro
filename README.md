@@ -1,65 +1,56 @@
 # CONTENT STUDIO PRO
 
-[Español](#español) · [English](#english)
+**Turn one video idea into a publication package you can inspect, edit, and reuse.**
 
-## Español
+[English](#english) · [Español](#español) · [Demo](examples/ejemplo-sincronizacion/LEEME.md) · [Contribute](CONTRIBUTING.md)
 
-Skill de Codex para investigar, producir y optimizar contenido para YouTube, Shorts, Instagram y TikTok. Incluye diez modos, módulos de carga progresiva, edición con Humanizer, validaciones locales y exportación con manifiesto SHA-256.
+![Three YouTube thumbnail options from the audio sync demo](docs/assets/demo-thumbnails.jpg)
 
-### Instalación y requisitos
+## English
 
-Clona el repositorio directamente en la carpeta de skills del usuario de Codex. En PowerShell:
+CONTENT STUDIO PRO is an open-source Codex skill for video creators and small content teams. Draft a YouTube script, rank ten title options, develop Shorts, Reels and TikToks from the same source, and keep the results together in a local project folder.
+
+**What makes it useful:** The skill loads the modules you ask for. Codex handles the editorial work, and Python checks the parts you can verify, such as title scores, chapter intervals, image dimensions and file hashes. You can review every deliverable before publishing.
+
+### Install in one command
+
+Requires Git and Codex. Choose a new destination. For project-only installation, replace the destination with `.agents/skills/content-studio-pro` from the project root.
+
+**PowerShell**
 
 ```powershell
 git clone https://github.com/Adrian102022/content-studio-pro.git "$env:USERPROFILE/.agents/skills/content-studio-pro"
 ```
 
-Para un proyecto concreto, usa `.agents/skills/content-studio-pro` bajo su raíz. Abre Codex e invoca `$content-studio-pro`. Para la CLI usa Python 3.10+. Pillow 9.1+ es opcional para normalizar y verificar imágenes. Generar imágenes requiere una herramienta conectada. Si no existe, el flujo prepara prompts. La investigación actual usa fuentes verificables y la analítica privada requiere archivos aportados o acceso de lectura autorizado.
-
-### Comandos y ejemplos
-
-```powershell
-python -B scripts/studio.py plan "Modo Completo"
-python -B scripts/studio.py plan "Módulo SEO"
-python -B -m unittest discover -s tests -v
-python -B scripts/studio.py check examples/ejemplo-sincronizacion --complete
-```
-
-En Windows, usa `py -3` o la ruta a un intérprete real si `python` es solo un alias. Prueba: `$content-studio-pro Modo completo. Prepara un video de YouTube sobre sincronizar audio grabado por separado y sus adaptaciones a Shorts, Instagram y TikTok.`
-
-Consulta los [modos](references/modos.md), [comandos y formatos](references/herramientas.md), [flujo de exportación](references/exportacion.md) y el [proyecto de demostración](examples/ejemplo-sincronizacion/LEEME.md).
-
-## English
-
-A Codex skill for researching, producing, and optimizing content for YouTube, Shorts, Instagram, and TikTok. It includes ten modes, on-demand modules, Humanizer editing, a project brand profile, and a local CLI with SHA-256 export manifests.
-
-### Install and run
-
-Clone the repository into the Codex user skills directory on macOS or Linux:
+**macOS / Linux**
 
 ```sh
 git clone https://github.com/Adrian102022/content-studio-pro.git ~/.agents/skills/content-studio-pro
 ```
 
-On Windows, use the PowerShell command above. For project scope, clone into `.agents/skills/content-studio-pro` under the project root. Open Codex and invoke `$content-studio-pro`. The CLI requires Python 3.10+. Pillow 9.1+ is optional for image normalization and verification. Image generation requires an available provider, with prompts as the fallback. Research uses verifiable sources. Private analytics require supplied data or authorized read access.
+In Codex, try `$content-studio-pro in complete mode. Prepare a YouTube package on syncing separately recorded audio. Write it in English and adapt it for Shorts, Reels and TikTok.`
 
-```sh
-python3 -B scripts/studio.py plan "Modo Completo"
-python3 -B scripts/studio.py plan "Módulo SEO"
-python3 -B -m unittest discover -s tests -v
-python3 -B scripts/studio.py check examples/ejemplo-sincronizacion --complete
-```
+### Run the demo
 
-Try `$content-studio-pro in complete mode. Draft a YouTube video on syncing separately recorded audio and adapt it for Shorts, Reels, and TikTok. Write the assets in English.`
+From the cloned folder, run `python scripts/demo.py` with Python 3.10+. Use `python3` or `py -3` if appropriate. It scores the sample titles and exports a local package with a checked manifest. Run `python scripts/demo.py --complete` with Pillow installed to include and verify the three real PNG thumbnails. This demo reuses checked-in assets. [Commands and expected results](docs/DEMO.md).
 
-See the [mode map](references/modos.md), [CLI reference](references/herramientas.md), [fictional demo](examples/ejemplo-sincronizacion/LEEME.md), and [third-party licensing](docs/CONTENIDO-DE-TERCEROS.md). The detailed module guides are in Spanish.
+## Español
 
-## Estructura / Repository layout
+CONTENT STUDIO PRO es una skill de código abierto para creadores y equipos pequeños que usan Codex. Convierte una idea en un guion de YouTube, diez propuestas de título y adaptaciones para Shorts, Reels y TikTok. Guarda la campaña en una carpeta editable.
 
-| Ruta / Path | Contenido / Contents |
-| --- | --- |
-| `SKILL.md`, `agents/` | Entrada y metadatos / Entrypoint and metadata |
-| `references/`, `config/` | Módulos y perfil de marca / Modules and brand profile |
-| `scripts/`, `tests/` | CLI y pruebas / CLI and tests |
-| `docs/`, `third-party/` | Auditoría, atribuciones y dependencias incluidas / Audit, attribution, and vendored dependencies |
-| `examples/` | Proyecto ficticio con miniaturas y metadatos / Fictional project with thumbnails and metadata |
+**Qué aporta:** Puedes usar el flujo completo o cargar solo el módulo que necesitas. Codex realiza el trabajo editorial y Python comprueba las reglas que pueden verificarse con archivos, como puntuación, tiempos de capítulos, dimensiones y huellas SHA-256.
+
+### Instalación en un comando
+
+Usa el comando de Git de arriba para tu sistema. Necesitas Git y Codex. Si prefieres instalarla solo en un proyecto, usa `.agents/skills/content-studio-pro` desde su raíz. Prueba `$content-studio-pro Modo completo. Prepara un video sobre sincronizar audio grabado por separado y adapta tres cortes a Shorts, Reels y TikTok.`
+
+### Demo y límites
+
+Ejecuta `python scripts/demo.py` desde el repositorio. Usa Python 3.10+ para la CLI. Instala Pillow si quieres normalizar o verificar imágenes. La creación de imágenes nuevas depende de las herramientas de la sesión de Codex. Si no hay generador, la skill prepara prompts. El flujo usa métricas y tiempos aportados o comprobados, y prepara archivos para revisión humana.
+
+[Guía de demo](docs/DEMO.md) · [Modos](references/modos.md) · [CLI](references/herramientas.md) · [Exportación](references/exportacion.md)
+
+## Project resources / Recursos
+
+- [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md) · [Security](SECURITY.md)
+- [MIT license](LICENSE) · [Third-party attribution](docs/ATRIBUCIONES.md) · [Dependencies and security review](docs/DEPENDENCIES.md)

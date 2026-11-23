@@ -29,6 +29,8 @@ work/
 outputs/
 downloads/
 exports/
+/demo-text/
+/demo-full/
 tmp/
 temp/
 *.tmp
